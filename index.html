@@ -1,0 +1,532 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ESD Professional Cleaning Services Inc. | Post Construction, Commercial &amp; Residential Cleaning in Calgary</title>
+<meta name="description" content="ESD Professional Cleaning Services Inc. is a leading post construction, commercial and residential cleaning expert operating from Calgary. We handle projects anywhere in Alberta.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --green:#60b800;
+  --green-d:#4a9100;
+  --teal:#006080;
+  --teal-d:#00394d;
+  --ink:#0d2530;
+  --paper:#f6f8f3;
+  --line:#d9e2d6;
+  --white:#fff;
+  --display:'Bricolage Grotesque',system-ui,sans-serif;
+  --body:'DM Sans',system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;overflow-x:clip}
+body{font-family:var(--body);color:var(--ink);background:var(--paper);line-height:1.6;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+.wrap{width:min(1240px,100% - 48px);margin-inline:auto}
+.eyebrow{font:700 .78rem/1 var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--green-d);display:flex;align-items:center;gap:12px}
+.eyebrow::before{content:"";width:34px;height:3px;background:var(--green)}
+h1,h2,h3{font-family:var(--display);line-height:1.02;letter-spacing:-.02em}
+.btn{display:inline-flex;align-items:center;gap:10px;font:700 .92rem/1 var(--body);letter-spacing:.06em;text-transform:uppercase;padding:18px 26px;border:2px solid transparent;cursor:pointer;transition:.25s}
+.btn-g{background:var(--green);color:#06210a;border-color:var(--green)}
+.btn-g:hover{background:var(--ink);color:#fff;border-color:var(--ink)}
+.btn-o{border-color:var(--ink);color:var(--ink)}
+.btn-o:hover{background:var(--ink);color:#fff}
+.tape{height:14px;background:repeating-linear-gradient(-45deg,var(--green) 0 18px,var(--teal-d) 18px 36px)}
+
+/* top strip */
+.strip{background:var(--teal-d);color:#d7ecf3;font-size:.86rem}
+.strip .wrap{display:flex;justify-content:space-between;gap:20px;padding:10px 0;flex-wrap:wrap}
+.strip span{display:inline-flex;gap:8px;align-items:center}
+.strip b{color:#fff;font-weight:700}
+.strip .grp{display:flex;gap:26px;flex-wrap:wrap}
+
+/* header */
+header.hd{background:#fff;position:sticky;top:0;z-index:50;border-bottom:1px solid var(--line)}
+.hd .wrap{display:flex;align-items:center;justify-content:space-between;height:84px}
+.logo img{height:54px;width:auto}
+nav.main{display:flex;gap:6px;align-items:center}
+nav.main a{font-weight:700;font-size:.9rem;padding:10px 16px;letter-spacing:.03em;position:relative}
+nav.main a:not(.btn)::after{content:"";position:absolute;left:16px;right:16px;bottom:4px;height:3px;background:var(--green);transform:scaleX(0);transform-origin:left;transition:.25s}
+nav.main a:not(.btn):hover::after{transform:scaleX(1)}
+nav.main .btn{padding:14px 22px;margin-left:10px}
+.burger{display:none;background:none;border:0;width:44px;height:44px;cursor:pointer}
+.burger i{display:block;height:3px;background:var(--ink);margin:6px 8px}
+
+/* hero */
+.hero{position:relative;background:var(--teal-d);color:#fff;margin-bottom:64px}
+.hero-bg{position:absolute;inset:0;overflow:hidden}
+.hero-bg img{width:100%;height:100%;object-fit:cover;object-position:50% 55%}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(0,34,46,.96) 0,rgba(0,45,62,.9) 36%,rgba(0,57,77,.62) 68%,rgba(0,57,77,.4) 100%)}
+.hero-in{position:relative;z-index:2;display:grid;grid-template-columns:1.12fr .88fr;gap:30px;align-items:center;padding:84px 0 150px;min-height:700px}
+.eyebrow-w{font:700 .78rem/1 var(--body);letter-spacing:.18em;text-transform:uppercase;color:#b9f26a;display:flex;align-items:center;gap:12px}
+.eyebrow-w::before{content:"";width:34px;height:3px;background:var(--green)}
+.hero h1{font-size:clamp(2.4rem,4.9vw,4.7rem);font-weight:800;text-transform:uppercase;margin:24px 0 28px;line-height:1.04;letter-spacing:-.025em}
+.hero h1 mark{background:var(--green);color:#06210a;padding:0 .14em;-webkit-box-decoration-break:clone;box-decoration-break:clone}
+.hero p.lead{max-width:520px;font-size:1.08rem;color:#cfe4ec;margin-bottom:34px}
+.hero .cta{display:flex;gap:14px;flex-wrap:wrap}
+.hero .btn-o{border-color:#fff;color:#fff}
+.hero .btn-o:hover{background:#fff;color:var(--teal-d)}
+.prints{position:relative;height:600px}
+.pr{position:absolute;background:#fff;padding:10px 10px 0;box-shadow:0 30px 50px -18px rgba(0,0,0,.55);width:236px;transition:transform .4s cubic-bezier(.2,.8,.2,1)}
+.pr img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.pr b{display:block;color:var(--ink);font:700 .88rem/1.2 var(--display);text-transform:uppercase;letter-spacing:.02em;padding:11px 2px 12px}
+.pr::before{content:"";position:absolute;top:-13px;left:50%;width:88px;height:26px;margin-left:-44px;background:rgba(96,184,0,.82);transform:rotate(-4deg)}
+.pr.a{left:0;top:96px;transform:rotate(-3.5deg)}
+.pr.b{left:252px;top:0;transform:rotate(2.5deg);z-index:2}
+.pr.c{left:262px;top:316px;transform:rotate(-1.5deg);z-index:3;width:236px}
+.prints:hover .pr{transform:rotate(0)}
+.callbar{position:absolute;left:50%;bottom:0;transform:translate(-50%,50%);z-index:5;width:min(1240px,100% - 48px);background:#fff;color:var(--ink);display:grid;grid-template-columns:1.1fr 1fr 1fr auto auto;gap:14px;align-items:center;padding:20px 24px;border-top:6px solid var(--green);box-shadow:0 30px 60px -22px rgba(0,30,45,.55)}
+.callbar h3{font-size:1.5rem;line-height:1.05}
+.callbar small{display:block;color:#5a727d;font-size:.88rem;margin-top:3px}
+.callbar input[type=text],.callbar input[type=tel]{width:100%;padding:15px 14px;border:1.5px solid var(--line);font:inherit;background:var(--paper)}
+.callbar input:focus,.qf input:focus,.qf select:focus{outline:0;border-color:var(--teal)}
+.callbar .cap{display:flex;align-items:center;gap:10px;font-size:.8rem;color:#5a727d;white-space:nowrap}
+.callbar .cap i{width:18px;height:18px;border:1.5px solid #9bb0b8;display:inline-block}
+.callbar .btn{background:var(--teal);color:#fff;border-color:var(--teal);white-space:nowrap}
+.callbar .btn:hover{background:var(--green);border-color:var(--green);color:#06210a}
+
+/* services */
+.sec{padding:120px 0}
+#services{overflow:hidden}
+.sec-h{display:grid;grid-template-columns:1fr 1fr;gap:60px;align-items:end;margin-bottom:56px}
+.sec-h h2{font-size:clamp(2.2rem,4.2vw,3.8rem);margin-top:18px;text-transform:uppercase}
+.sec-h p{color:#40606c;max-width:460px;justify-self:end}
+.svc{display:grid;grid-template-columns:1.05fr .95fr;gap:70px;align-items:start}
+.svc-list{border-top:2px solid var(--ink)}
+.sr{display:grid;grid-template-columns:70px 1fr 44px;gap:18px;padding:36px 0;border-bottom:1px solid var(--ink);cursor:pointer;position:relative;transition:padding .35s}
+.sr .n{font:800 1.1rem/1.9 var(--display);color:var(--green-d)}
+.sr h3{font-size:clamp(1.7rem,2.8vw,2.5rem);text-transform:uppercase;transition:color .3s;margin-bottom:12px}
+.sr p{color:#40606c;max-width:470px;transition:opacity .3s}
+.sr .arr{width:44px;height:44px;border:2px solid var(--ink);display:grid;place-items:center;transition:.3s;font-size:1.2rem}
+.sr .inl{display:none}
+.sr:not(.on) p{opacity:.55}
+.sr.on{padding-left:14px}
+.sr.on h3{color:var(--teal)}
+.sr.on .arr{background:var(--green);border-color:var(--green);}
+.sr::before{content:"";position:absolute;left:0;top:-1px;bottom:-1px;width:6px;background:var(--green);transform:scaleY(0);transform-origin:top;transition:.35s}
+.sr.on::before{transform:scaleY(1)}
+.stage{position:sticky;top:120px;height:600px;overflow:hidden;background:var(--teal-d)}
+.stage img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;transform:scale(1.08);transition:opacity .7s,transform 1.1s cubic-bezier(.2,.8,.2,1)}
+.stage img.on{opacity:1;transform:scale(1)}
+.stage .tag{position:absolute;left:0;bottom:0;background:var(--green);color:#06210a;font:800 .9rem/1 var(--display);text-transform:uppercase;letter-spacing:.06em;padding:16px 22px;z-index:2}
+.stage::after{content:"";position:absolute;right:18px;top:18px;width:84px;height:84px;border-top:4px solid #fff;border-right:4px solid #fff;z-index:2}
+.rib{margin-top:110px;position:relative;left:-4vw;width:108vw;transform:rotate(-1.4deg);background:var(--green);border-top:7px solid var(--teal-d);border-bottom:7px solid var(--teal-d);overflow:hidden;white-space:nowrap}
+.rib-t{display:inline-flex;animation:mq 40s linear infinite;padding:18px 0}
+.rib-t span{font:800 1.35rem/1 var(--display);text-transform:uppercase;color:#06210a;padding:0 26px;display:inline-flex;align-items:center;gap:52px}
+.rib-t span::after{content:"";width:12px;height:12px;background:var(--teal-d);transform:rotate(45deg)}
+@keyframes mq{to{transform:translateX(-50%)}}
+.rib-l{font:700 .78rem var(--body);letter-spacing:.16em;text-transform:uppercase;color:var(--ink);text-align:center;margin-bottom:24px}
+
+/* why */
+.why{background:#e8f2db;position:relative;overflow:hidden}
+.why-h{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:50px;flex-wrap:wrap}
+.why-h h2{font-size:clamp(2.2rem,4.4vw,4rem);text-transform:uppercase;margin-top:18px}
+.bento{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+.b{position:relative;padding:34px;overflow:hidden}
+.b h3{font-size:1.75rem;margin:22px 0 12px}
+.b p{font-size:1.02rem}
+.b .ic{width:56px;height:56px;display:grid;place-items:center;border:2px solid currentColor}
+.b .ic svg{width:28px;height:28px;stroke:currentColor;fill:none;stroke-width:2;stroke-linecap:square}
+.b-photo{grid-column:1/6;grid-row:1/3;padding:0;min-height:520px;background:var(--teal-d);color:#fff}
+.b-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.b-photo::after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,35,48,.92),transparent 55%)}
+.b-photo .cap{position:absolute;left:30px;right:30px;bottom:28px;z-index:2;font:700 1.45rem/1.2 var(--display)}
+.b-photo .cap small{display:block;font:700 .75rem var(--body);letter-spacing:.16em;text-transform:uppercase;color:#b9f26a;margin-bottom:10px}
+.b-peace{grid-column:6/13;background:var(--teal-d);color:#fff;display:grid;grid-template-columns:auto 1fr;gap:0 28px;align-items:start}
+.b-peace h3{margin-top:0;font-size:2.1rem}
+.b-peace p{color:#c9dfe7;max-width:520px}
+.b-peace .ic{color:#b9f26a}
+.b-peace p b{color:#fff}
+.b-exp{grid-column:6/10;background:#fff;border:1px solid #c9d9be}
+.b-exp .ic{color:var(--teal)}
+.b-exp p{color:#40606c}
+.b-ins{grid-column:10/13;background:var(--green);color:#06210a}
+.b-ins p{color:#143d00}
+.b::after{pointer-events:none}
+
+/* testimonials */
+.tm{background:var(--paper)}
+.tm-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;align-items:start}
+.q{background:#fff;padding:38px 32px 34px;border:1px solid var(--line);position:relative}
+.q:nth-child(2){margin-top:56px;background:var(--green);border-color:var(--green)}
+.q:nth-child(3){margin-top:112px}
+.q::before{content:"\201C";font:800 6rem/0.6 var(--display);color:var(--green);display:block;height:46px}
+.q:nth-child(2)::before{color:var(--teal-d)}
+.q p{font-size:1.1rem;font-weight:500;margin-bottom:26px}
+.q:nth-child(2) p{color:#06210a}
+.q .who{border-top:1px solid var(--line);padding-top:18px}
+.q:nth-child(2) .who{border-color:rgba(0,0,0,.2)}
+.q .who b{display:block;font:700 1.05rem var(--display)}
+.q .who span{font-size:.88rem;color:#5a727d}
+.q:nth-child(2) .who span{color:#134000}
+
+/* clients */
+.clients{padding:100px 0;background:#fff;border-top:1px solid var(--line)}
+.clients .top{display:flex;justify-content:space-between;align-items:end;gap:30px;margin-bottom:44px;flex-wrap:wrap}
+.clients h2{font-size:clamp(2rem,3.6vw,3.2rem);text-transform:uppercase;margin-top:16px}
+.clients .top p{max-width:340px;color:#40606c}
+.logos{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));border-top:1px solid var(--ink);border-left:1px solid var(--ink)}
+.logos div{border-right:1px solid var(--ink);border-bottom:1px solid var(--ink);aspect-ratio:4/3;display:grid;place-items:center;padding:22px;background:#e9e9e9;transition:.3s}
+.logos div img{max-height:84px;max-width:100%;width:auto;filter:grayscale(1);mix-blend-mode:multiply;transition:.3s}
+.logos div:hover{background:#e9e9e9}
+.logos div:hover img{filter:none}
+.logos .fill{grid-column:span 1;background:var(--green);display:grid;place-items:center;text-align:center;font:800 1.5rem/1.1 var(--display);text-transform:uppercase;color:#06210a;padding:20px}
+
+/* quote */
+.quote{background:var(--teal);color:#fff;position:relative;overflow:hidden}
+.quote .wrap{display:grid;grid-template-columns:.85fr 1.15fr;gap:70px;align-items:start}
+.quote h2{font-size:clamp(2.4rem,4.6vw,4.4rem);text-transform:uppercase;margin:18px 0 26px}
+.quote .eyebrow{color:#b9f26a}
+.quote p{color:#d3e8ef;max-width:430px;margin-bottom:12px}
+.quote .tag{margin-top:34px;padding-top:26px;border-top:1px solid rgba(255,255,255,.28);display:grid;gap:8px;font-size:.98rem}
+.quote .tag b{color:#b9f26a;font-weight:700}
+.qf{background:#fff;color:var(--ink);padding:40px;border-top:8px solid var(--green)}
+.qf h3{font-size:1.7rem;margin-bottom:22px;text-transform:uppercase}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.qf input,.qf select{width:100%;padding:14px;border:1.5px solid var(--line);background:var(--paper);font:inherit;margin-bottom:12px;color:var(--ink)}
+.qf label.t{display:block;font:700 .78rem var(--body);letter-spacing:.12em;text-transform:uppercase;margin:12px 0 10px;color:var(--teal)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:10px}
+.chips label{cursor:pointer}
+.chips input{position:absolute;opacity:0;width:0;height:0}
+.chips span{display:inline-block;padding:10px 14px;border:1.5px solid var(--line);font-size:.9rem;font-weight:500;background:#fff;transition:.2s}
+.chips input:checked+span{background:var(--teal);border-color:var(--teal);color:#fff}
+.chips label:hover span{border-color:var(--teal)}
+.chips input:focus-visible+span{outline:2px solid var(--green);outline-offset:2px}
+.qf .btn{width:100%;justify-content:center;margin-top:16px;background:var(--green);color:#06210a}
+.qf .btn:hover{background:var(--ink);color:#fff}
+.ok{display:none;margin-top:14px;font-weight:700;color:var(--green-d)}
+
+/* footer */
+footer{background:var(--ink);color:#b4c6ce}
+footer .wrap{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:60px;padding:80px 0 56px}
+footer .lg{background:#fff;display:inline-block;padding:12px 16px;margin-bottom:22px}
+footer .lg img{height:48px;width:auto}
+footer h4{font:700 .8rem var(--body);letter-spacing:.16em;text-transform:uppercase;color:#fff;margin-bottom:18px}
+footer p,footer li{font-size:.96rem}
+footer ul{list-style:none;display:grid;gap:10px}
+footer a:hover{color:#b9f26a}
+.hrs li{display:flex;justify-content:space-between;gap:18px;border-bottom:1px dashed rgba(255,255,255,.18);padding-bottom:8px}
+.hrs li b{color:#fff;font-weight:500}
+.bar{border-top:1px solid rgba(255,255,255,.12);padding:22px 0;font-size:.86rem}
+.bar .wrap{display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;padding:0}
+.bar a{color:#b9f26a;font-weight:700}
+
+.rv{opacity:0;transform:translateY(26px);transition:.8s cubic-bezier(.2,.8,.2,1)}
+.rv.in{opacity:1;transform:none}
+
+@media (max-width:1024px){
+  .hero-in{grid-template-columns:1fr;padding:64px 0 130px;min-height:0}
+  .prints{height:470px;max-width:520px}
+  .pr{width:190px}.pr.a{top:70px}.pr.b{left:210px}.pr.c{left:220px;top:250px;width:190px}
+  .hero-in{padding-bottom:50px}
+  .callbar{position:relative;left:auto;bottom:auto;transform:none;margin:0 auto -50px;grid-template-columns:1fr 1fr;padding:22px}
+  .callbar > div:first-child{grid-column:1/-1}
+  .callbar .btn{grid-column:1/-1;justify-content:center}
+  .hero{margin-bottom:50px}
+  .sec-h,.quote .wrap,.svc{grid-template-columns:1fr}
+  .sec-h p{justify-self:start}
+  .stage{position:relative;top:0;height:420px;order:-1}
+  .bento{grid-template-columns:1fr}
+  .b-photo,.b-peace,.b-exp,.b-ins{grid-column:1;grid-row:auto}
+  .b-photo{min-height:420px}
+  .logos{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .tm-grid{grid-template-columns:1fr}
+  .q:nth-child(2),.q:nth-child(3){margin-top:0}
+  footer .wrap{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+  .wrap{width:calc(100% - 32px)}
+  .strip .grp:last-child{display:none}
+  nav.main{position:fixed;inset:84px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;padding:12px 16px 24px;border-bottom:1px solid var(--line);transform:translateY(-130%);transition:.35s;z-index:-1}
+  nav.main.open{transform:none}
+  nav.main .btn{margin:8px 0 0;justify-content:center}
+  .burger{display:block}
+  .sec{padding:76px 0}
+  .hero h1{font-size:2.1rem}
+  .prints{height:360px}
+  .pr{width:140px;padding:7px 7px 0}.pr b{font-size:.7rem;padding:8px 0 9px}.pr.a{top:50px}.pr.b{left:150px}.pr.c{left:150px;top:190px;width:140px}
+  .callbar{grid-template-columns:1fr;width:calc(100% - 32px)}
+  .pr.c{display:none}
+  .prints{height:300px}
+  .stage{display:none}
+  .sr{grid-template-columns:44px 1fr;padding:28px 0}
+  .sr .arr{display:none}
+  .sr .inl{display:block;grid-column:1/-1;width:100%;aspect-ratio:4/3;object-fit:cover;margin-top:16px}
+  .sr.on{padding-left:16px}
+  .rib{margin-top:70px}
+  .b-peace{grid-template-columns:1fr}
+  .b-peace .ic{margin-bottom:22px}
+  .logos{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .row{grid-template-columns:1fr}
+  .qf{padding:26px 20px}
+  footer .wrap{grid-template-columns:1fr;gap:38px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+
+<div class="strip">
+  <div class="wrap">
+    <div class="grp">
+      <span>#300, 340 Midpark Way S.E, Calgary, AB T2X 1P1</span>
+    </div>
+    <div class="grp">
+      <span><b>403 407 7780</b></span>
+      <span><b>403 256 2440</b></span>
+      <span>info@esdprocleaning.com</span>
+    </div>
+  </div>
+</div>
+
+<header class="hd">
+  <div class="wrap">
+    <a class="logo" href="#top" aria-label="ESD Professional Cleaning Services Inc."><img src="images/logo.png" alt="ESD Professional Cleaning Services Inc." width="276" height="51"></a>
+    <button class="burger" aria-label="Menu" onclick="document.querySelector('nav.main').classList.toggle('open')"><i></i><i></i><i></i></button>
+    <nav class="main">
+      <a href="#top">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Our Services</a>
+      <a href="#contact">Contact Us</a>
+      <a class="btn btn-g" href="#quote">Request Quote</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-bg"><img src="images/hero-lobby.jpg" alt="Spotless commercial lobby with stone feature column and polished floors" fetchpriority="high"></div>
+  <div class="wrap hero-in">
+    <div class="hero-copy">
+      <div class="eyebrow-w">Calgary, Alberta</div>
+      <h1>Post construction, <mark>commercial &amp; residential</mark> cleaning experts</h1>
+      <p class="lead">ESD Professional Cleaning Services Inc., is a leading post construction, commercial and residential cleaning expert operating from Calgary. We handle projects anywhere in Alberta.</p>
+      <div class="cta">
+        <a class="btn btn-g" href="#quote">Request Quote</a>
+        <a class="btn btn-o" href="#services">Learn More</a>
+      </div>
+    </div>
+    <div class="prints" aria-hidden="true">
+      <figure class="pr a"><img src="images/post-construction.jpg" alt=""><b>Post Construction</b></figure>
+      <figure class="pr b"><img src="images/commercial.jpg" alt=""><b>Commercial</b></figure>
+      <figure class="pr c"><img src="images/residential.jpg" alt=""><b>Residential</b></figure>
+    </div>
+  </div>
+  <form class="callbar" onsubmit="event.preventDefault();this.querySelector('.btn').textContent='We will call you';">
+    <div><h3>Request a Call</h3><small>Is this urgent? Leave your number.</small></div>
+    <input type="text" placeholder="Your name" aria-label="Your name" required>
+    <input type="tel" placeholder="Phone number" aria-label="Phone number" required>
+    <div class="cap"><i></i> Captcha</div>
+    <button class="btn" type="submit">Call Me Now</button>
+  </form>
+</section>
+
+<section class="sec" id="services">
+  <div class="wrap">
+    <div class="sec-h">
+      <div><div class="eyebrow">Our Services</div><h2 class="rv">What we clean</h2></div>
+      <p class="rv">Post construction, commercial and residential cleaning, delivered across Calgary and all of Alberta.</p>
+    </div>
+    <div class="svc">
+      <div class="svc-list" id="svcList">
+        <article class="sr on" data-i="0" tabindex="0">
+          <span class="n">01</span>
+          <div><h3>Post Construction Cleaning</h3><p>At different stages of your project, we step in when required to first do a rough clean which will enable you to easily detect deficiencies and correct them.</p></div>
+          <span class="arr">&rarr;</span>
+          <img class="inl" src="images/post-construction.jpg" alt="Newly built interior with polished floors after post construction cleaning">
+        </article>
+        <article class="sr" data-i="1" tabindex="0">
+          <span class="n">02</span>
+          <div><h3>Commercial Cleaning</h3><p>As commercial cleaners, we provide cleaning services for businesses such as offices, shops, spas, factories, event centers, hotels, churches, museums, and more.</p></div>
+          <span class="arr">&rarr;</span>
+          <img class="inl" src="images/commercial.jpg" alt="Clean modern office with cleaning cart">
+        </article>
+        <article class="sr" data-i="2" tabindex="0">
+          <span class="n">03</span>
+          <div><h3>Residential Cleaning</h3><p>As an eco-safe company, we strive to ensure that the dignity and beauty of your residence is always maintained. That is why we only use premium eco-friendly products.</p></div>
+          <span class="arr">&rarr;</span>
+          <img class="inl" src="images/residential.jpg" alt="Clean, bright living room">
+        </article>
+      </div>
+      <div class="stage" aria-hidden="true">
+        <img class="on" src="images/post-construction.jpg" alt="">
+        <img src="images/commercial.jpg" alt="">
+        <img src="images/residential.jpg" alt="">
+        <span class="tag" id="stageTag">Post Construction Cleaning</span>
+      </div>
+    </div>
+  </div>
+  <div class="rib" aria-label="Also available: Tile and Grout Cleaning, Power Washing, High-Rise Window Cleaning, Low-Rise Window Cleaning, Parkade Cleaning, Restoration Services, Carpet Cleaning, Floor Waxing, Warehouse Cleaning">
+    <div class="rib-t" aria-hidden="true">
+      <span>Tile and Grout Cleaning</span><span>Power Washing</span><span>High-Rise Window Cleaning</span><span>Low-Rise Window Cleaning</span><span>Parkade Cleaning</span><span>Restoration Services</span><span>Carpet Cleaning</span><span>Floor Waxing</span><span>Warehouse Cleaning</span>
+      <span>Tile and Grout Cleaning</span><span>Power Washing</span><span>High-Rise Window Cleaning</span><span>Low-Rise Window Cleaning</span><span>Parkade Cleaning</span><span>Restoration Services</span><span>Carpet Cleaning</span><span>Floor Waxing</span><span>Warehouse Cleaning</span>
+    </div>
+  </div>
+</section>
+
+<section class="sec why" id="about">
+  <div class="wrap">
+    <div class="why-h">
+      <div><div class="eyebrow">Why You'll Like Us</div><h2 class="rv">Done right. Done on time.</h2></div>
+    </div>
+    <div class="bento">
+      <article class="b b-photo rv">
+        <img src="images/cleaning-detail.jpg" alt="Gloved hand wiping a polished surface">
+        <div class="cap"><small>We Won't Put You in Trouble</small>Safety at work is a professional lifestyle for us.</div>
+      </article>
+      <article class="b b-peace rv">
+        <span class="ic"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
+        <div><h3>You Will Have Peace of Mind</h3><p>You can rest assured that when we take on a job, we do it right the first time. <b>And on time.</b> Excuses are not part of our services so we don't give them.</p></div>
+      </article>
+      <article class="b b-exp rv">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l2.6 5.6 6.1.7-4.5 4.2 1.2 6L12 16.4 6.6 19.5l1.2-6L3.3 9.3l6.1-.7z"/></svg></span>
+        <h3>Professional Expertise</h3>
+        <p>As a leading provider of post construction cleaning services in Calgary and area, we save you time and money by delivering the best results possible.</p>
+      </article>
+      <article class="b b-ins rv">
+        <span class="ic"><svg viewBox="0 0 24 24"><path d="M12 3l8 3v6c0 4.5-3.2 7.8-8 9-4.8-1.2-8-4.5-8-9V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg></span>
+        <h3>We Won't Put You in Trouble</h3>
+        <p>We are insured. For us, that's basic. For you, it's critical. Whatever happens when we are on your site, it's on us.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="sec tm">
+  <div class="wrap">
+    <div class="sec-h">
+      <div><div class="eyebrow">Testimonials</div><h2 class="rv">What clients say</h2></div>
+      <p class="rv">Reliability, timeliness and trust, in their words.</p>
+    </div>
+    <div class="tm-grid">
+      <figure class="q rv"><p>I deal with Seniors and I cannot afford unreliable cleaning schedule. In the past, I had to let go of many small cleaning companies but ESD Pro has been a game changer for me. I just love them!</p><figcaption class="who"><b>Paula Flint</b><span>Senior Home Supervisor</span></figcaption></figure>
+      <figure class="q rv"><p>I am a stickler for timeliness and excellence. A lot of the so called big names in cleaning have left me hanging in the past, but ESD Pro has reliable resources that they put to work. What else can I desire?</p><figcaption class="who"><b>Prahbu Kumar</b><span>Warehouse Manager</span></figcaption></figure>
+      <figure class="q rv"><p>Initially, I was skeptical. I had stumbled upon the ESD Pro guys by chance so I wasn't too sure if I could trust them. It turned out that my sixth sense was right. If you need a reliable team, talk to them!</p><figcaption class="who"><b>Smith Waffle</b><span>SW Calgary Acreage</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section class="clients">
+  <div class="wrap">
+    <div class="top">
+      <div><div class="eyebrow">Some Of Our Clients</div><h2 class="rv">Trusted by leading brands</h2></div>
+    </div>
+    <div class="logos">
+      <div><img src="images/client-3.jpg" alt="Truman"></div>
+      <div><img src="images/client-4.jpg" alt="Clark Builders"></div>
+      <div><img src="images/client-6.jpg" alt="Maple Reinders"></div>
+      <div><img src="images/client-7.jpg" alt="Centron"></div>
+      <div><img src="images/client-8.jpg" alt="Hopewell"></div>
+      <div><img src="images/client-9.jpg" alt="SBL Contractors Ltd"></div>
+      <div><img src="images/client-11.jpg" alt="Chandos"></div>
+      <div><img src="images/client-2.jpg" alt="Wright Construction Western Inc."></div>
+      <div><img src="images/client-fillmore.webp" alt="Fillmore Construction"></div>
+      <a class="fill" href="#quote">You won't be disappointed</a>
+    </div>
+  </div>
+</section>
+
+<section class="sec quote" id="quote">
+  <div class="wrap">
+    <div>
+      <div class="eyebrow">Request Quote</div>
+      <h2>You won't be disappointed</h2>
+      <p>ESD Professional Cleaning Services Inc., is a leading post construction, commercial and residential cleaning expert operating from Calgary. We handle projects anywhere in Alberta.</p>
+      <div class="tag" id="contact">
+        <span><b>Call</b> 403 407 7780 or 403 256 2440</span>
+        <span><b>Email</b> info@esdprocleaning.com</span>
+        <span><b>Visit</b> #300, 340 Midpark Way S.E, Calgary, AB T2X 1P1</span>
+      </div>
+    </div>
+    <form class="qf" onsubmit="event.preventDefault();this.querySelector('.ok').style.display='block';">
+      <h3>Request Quote</h3>
+      <div class="row">
+        <input type="text" placeholder="Name" aria-label="Name" required>
+        <input type="email" placeholder="Email" aria-label="Email" required>
+      </div>
+      <div class="row">
+        <input type="tel" placeholder="Phone" aria-label="Phone">
+        <select aria-label="Province">
+          <option>Alberta</option><option>British Columbia</option><option>Manitoba</option><option>New Brunswick</option><option>Newfoundland and Labrador</option><option>Northwest Territories</option><option>Nova Scotia</option><option>Nunavut</option><option>Ontario</option><option>Prince Edward Island</option><option>Quebec</option><option>Saskatchewan</option><option>Yukon</option>
+        </select>
+      </div>
+      <label class="t">Services</label>
+      <div class="chips">
+        <label><input type="checkbox"><span>Post Construction Cleaning</span></label>
+        <label><input type="checkbox"><span>Tile and Grout Cleaning</span></label>
+        <label><input type="checkbox"><span>Power Washing</span></label>
+        <label><input type="checkbox"><span>High-Rise Window Cleaning</span></label>
+        <label><input type="checkbox"><span>Low-Rise Window Cleaning</span></label>
+        <label><input type="checkbox"><span>Parkade Cleaning</span></label>
+        <label><input type="checkbox"><span>Restoration Services</span></label>
+        <label><input type="checkbox"><span>Carpet Cleaning</span></label>
+        <label><input type="checkbox"><span>Floor Waxing</span></label>
+        <label><input type="checkbox"><span>Warehouse Cleaning</span></label>
+      </div>
+      <label class="t">How did you hear about us?</label>
+      <div class="chips">
+        <label><input type="radio" name="h"><span>Google Search</span></label>
+        <label><input type="radio" name="h"><span>Referral</span></label>
+        <label><input type="radio" name="h"><span>Facebook</span></label>
+      </div>
+      <button class="btn" type="submit">Request Quote</button>
+      <div class="ok">Thank you. We will be in touch.</div>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <a class="lg" href="#top"><img src="images/logo.png" alt="ESD Professional Cleaning Services Inc."></a>
+      <p>ESD Professional Cleaning Services Inc., is a leading post construction, commercial and residential cleaning expert operating from Calgary. We handle projects anywhere in Alberta.</p>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li>#300, 340 Midpark Way S.E, Calgary, AB T2X 1P1</li>
+        <li><a href="tel:4034077780">403 407 7780</a></li>
+        <li><a href="tel:4032562440">403 256 2440</a></li>
+        <li><a href="mailto:info@esdprocleaning.com">info@esdprocleaning.com</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Working Hours</h4>
+      <ul class="hrs">
+        <li><span>Monday - Friday</span><b>09:00 - 19:00</b></li>
+        <li><span>Saturday - Sunday</span><b>10:00 - 14:00</b></li>
+      </ul>
+    </div>
+  </div>
+  <div class="bar"><div class="wrap">
+    <span>&copy; <span id="yr">2026</span> ESD Professional Cleaning Services Inc.</span>
+    <span>Design by <a href="https://cleanningdigital.com/" target="_blank" rel="noopener">Cleaning Digital</a>.</span>
+  </div></div>
+</footer>
+
+<script>
+(function(){
+  var rows=document.querySelectorAll('#svcList .sr'),imgs=document.querySelectorAll('.stage img'),tag=document.getElementById('stageTag'),timer;
+  function act(i){
+    rows.forEach(function(r,k){r.classList.toggle('on',k===i)});
+    imgs.forEach(function(m,k){m.classList.toggle('on',k===i)});
+    tag.textContent=rows[i].querySelector('h3').textContent;
+  }
+  rows.forEach(function(r,i){
+    r.addEventListener('mouseenter',function(){if(matchMedia('(min-width:1025px)').matches)act(i)});
+    r.addEventListener('click',function(){act(i)});
+    r.addEventListener('focus',function(){act(i)});
+  });
+  document.querySelectorAll('nav.main a').forEach(function(a){a.addEventListener('click',function(){document.querySelector('nav.main').classList.remove('open')})});
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.15});
+  document.querySelectorAll('.rv').forEach(function(e){io.observe(e)});
+  document.getElementById('yr').textContent=new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
